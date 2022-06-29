@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  font-family: 'Trispace', sans-serif;
+}
+
+.cccontainer {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 150px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#item {
+  width: 179px;
+  height:179px;
+  background-color: rgb(255, 0, 225);
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  touch-action: none;
+  user-select: none;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#box1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(130, 136, 12);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(56, 242, 121);
+}
+
+.big-text {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+.small-text {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+#item:active {
+  color: transparent;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/s1.thingpic.com/images/X5/eqVGxv6nC69avqbNksQWqRtJ.jpeg');
+  background-color: white;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 10px solid rgb(255, 0, 225);
+
+}
